@@ -1,0 +1,611 @@
+[1568132189.585][INFO]: Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})
+[1568132189.585][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1568132189.919][INFO]: [25f962950df3e3410b2984b8bf151902] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "user-data-dir=C:\\\\Users\\\\Droid\\\\Desktop\\\\InstagramBot\\\\chromeuserdata", "--incognito" ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "user-data-dir=C:\\\\Users\\\\Droid\\\\Desktop\\\\InstagramBot\\\\chromeuserdata", "--incognito" ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1568132189.925][INFO]: Populating Preferences file: {
+   "account_id_migration_state": 2,
+   "account_tracker_service_last_update": "13212565144639739",
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "credit_card_enabled": false,
+      "enabled": false,
+      "japan_city_field_migrated_to_street_address": true,
+      "orphan_rows_removed": true,
+      "profile_enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "countryid_at_install": 21843,
+   "data_reduction": {
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "168926", "544900", "21689", "47330", "107720", "17324", "102891", "60382", "34698", "20916", "5649", "0", "0", "11303" ],
+      "daily_original_length_application": "0",
+      "daily_original_length_unknown": "11303",
+      "daily_original_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_original_length_via_data_reduction_proxy_application": "0",
+      "daily_original_length_via_data_reduction_proxy_unknown": "0",
+      "daily_original_length_via_data_reduction_proxy_video": "0",
+      "daily_original_length_video": "0",
+      "daily_original_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_original_length_with_data_reduction_proxy_enabled_application": "0",
+      "daily_original_length_with_data_reduction_proxy_enabled_unknown": "0",
+      "daily_original_length_with_data_reduction_proxy_enabled_video": "0",
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "168926", "544900", "21689", "47330", "107720", "17324", "102891", "60382", "34698", "20916", "5649", "0", "0", "11303" ],
+      "daily_received_length_application": "0",
+      "daily_received_length_https_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_long_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_short_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_unknown": "11303",
+      "daily_received_length_unknown_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_via_data_reduction_proxy_application": "0",
+      "daily_received_length_via_data_reduction_proxy_unknown": "0",
+      "daily_received_length_via_data_reduction_proxy_video": "0",
+      "daily_received_length_video": "0",
+      "daily_received_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_with_data_reduction_proxy_enabled_application": "0",
+      "daily_received_length_with_data_reduction_proxy_enabled_unknown": "0",
+      "daily_received_length_with_data_reduction_proxy_enabled_video": "0",
+      "last_update_date": "13212561600000000",
+      "last_week_services_downstream_background_kb": {
+
+      },
+      "last_week_services_downstream_foreground_kb": {
+         "112189210": 495,
+         "117649486": 437,
+         "35565745": 95,
+         "41424546": 17,
+         "54845618": 17
+      },
+      "last_week_user_traffic_contenttype_downstream_kb": {
+
+      },
+      "network_properties": {
+
+      },
+      "this_week_number": 2592,
+      "this_week_services_downstream_background_kb": {
+
+      },
+      "this_week_services_downstream_foreground_kb": {
+         "112189210": 68,
+         "35565745": 19,
+         "41424546": 9
+      },
+      "this_week_user_traffic_contenttype_downstream_kb": {
+
+      }
+   },
+   "devtools": {
+      "adb_key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDOXTkYIAYFW4Lo08eZx5vbEvI/lH4hfWc3wx/9auqMpKsxtwBVaLjsyS3SbqvCWLhgzVSgtfwMHT+Xq1Fhjoru+WxAIwS9CefmpoooK5sTMQ/vSLQy+VDth1wC5WxBir5IqQkal6F8HDRwo70cB6VWAmTOLTOqaq6zOksQTwAon/9f+nqEHZVPx2dMpFRA3iw/YeXGjBgz2Gf+FtJpEmtyX3AsesXHTN3Hz0WN73dH8PDxo1rlEeg7+J3nvn3gckJm72vEvuaox55giSL1DcCQNQYbWvmxaK/jnc42RSaYizITXYo3Lzqdc8LZW0oXVblQICRtzpKv8S4BhZy74opAgMBAAECggEAB4j0r4nf983/8NgNSjWdsZxC8o+KV2bIO5VKVLgFN6z7B0snm6+T+WjlLmPcnjvlAqI/UR92uTENmvHJi0jqftyiOWo1fdfJnbnoYFAPW2O9IV6p9Ngh0bK6QSRZUztTNkl1f2hRnKbSm+3/+YRIUehTekiyhdV7nvkguNINwFJ0BxZF84m+Q6gckeyjmOWaTuRgiLpXVo7QsCDK+vhYmZ7P00X0tq+0H+lgvea132A19zmzjLdH1GzWk0tqLCmfzhQa87hfA0kKj1Y4bfgDWT2ncDzWINxnNrkcnBnGDqbAX37M+AvXwGQznK+p64Du+EWNPHKTYotXnSmB+uL9QQKBgQDtpZUZ0zW8wWEnyyY7EMsapLZUXbUpnIInBYSxOwhUd7yh4Zl3kh6p3bFKtzD1h0fCJ8iDQremK0nphW8iEFTGsDlNWCsES/CZCaBmyg8RfOPvRdQejEmv6Eqyo3exp1tfbuzCLdncnwbETn6RS1Xi5f6jC0GfLDnNsBAWfBb3WQKBgQDSTSiyQK7sPcDkKA1L0rH+9zVlNY+6hLqbg3rjt73azMEplsFqZYcVTV+CaMw1EnufF4w0uZpv/+3UF/z9pRvon1Oo4WySl4Jp3u1AceyvlyzAmhkjfCHERgBhvA2FhMhBJ3c5lm6HaYwWcELYGhIvAS2Sog6YbNVlPmW3dgOfUQKBgHCE8+G0ZT8n+I5U25cfzmqhDktHyx0Wo3FCZZ9cqgcEYmXrYTSCFM6szuLndeDq2okNOR0dG8Mrv+U3bnUccmdYzOjYFBYGtrZfHnlMtnG7RljmIRcNqV4GiEeoqmWNLfAznxoZh4u0KAoOeFLm7pVt/HDKRZnN4NiIwjVDL8SRAoGAbO+DETLoaX9jl8wXdxthEI3FnvOrzBZNA5mL4sGfGuPNe1mYPyDwZFx8CPV4MlWsq7Bq9DTghvuvmpoCdvE8D7fYgjajIxxQdb8Abs2UqTBKAkrQks0OQLlyIS5kYrFxei6TV8VQ49wMsOLd/Usj+C1IChjgLpzRvWwhDHOZVMECgYEA4TrKrwGTtfBHZ9Tc2LKvafHO4rItgTMLPSvOot7W1yCAlGJ2qm2aLR9HT62VEmVdfE1eJteiXpO105Ui8l4PxA4k8dZokRoilb1ArKAARbBrMGUO6w5jCtTvtZqL0FG+9IwdsTkCDFibPaVT2z5uQZpmhWoWq9KygbmHZsqZ5bg=",
+      "preferences": {
+         "Inspector.drawerSplitViewState": "{\"horizontal\":{\"size\":0,\"showMode\":\"Both\"}}",
+         "InspectorView.splitViewState": "{\"vertical\":{\"size\":431}}",
+         "console.sidebar.width": "{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
+         "console.sidebarSelectedFilter": "\"message\"",
+         "currentDockState": "\"right\"",
+         "drawer-view-closeableTabs": "{\"sources.search-sources-tab\":true}",
+         "drawer-view-selectedTab": "\"console-view\"",
+         "drawer-view-tabOrder": "{\"console-view\":10,\"sources.search-sources-tab\":20}",
+         "emulation.deviceModeValue": "{\"device\":\"\",\"orientation\":\"\",\"mode\":\"\"}",
+         "emulation.showDeviceMode": "false",
+         "inspectorVersion": "26",
+         "networkPanelSidebarState": "{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
+         "networkPanelSplitViewState": "{\"vertical\":{\"size\":0}}",
+         "networkPanelSplitViewWaterfall": "{\"vertical\":{\"size\":0}}",
+         "panel-selectedTab": "\"elements\"",
+         "releaseNoteVersionSeen": "18",
+         "sourcesPanelNavigatorSplitViewState": "{\"vertical\":{\"size\":0,\"showMode\":\"Both\"}}",
+         "sourcesPanelSplitViewState": "{\"vertical\":{\"size\":0,\"showMode\":\"Both\"},\"horizontal\":{\"size\":0,\"showMode\":\"Both\"}}",
+         "standardEmulatedDeviceList": "[{\"title\":\"iPhone 4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":320,\"height\":480},\"horizontal\":{\"width\":480,\"height\":320}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"BlackBerry Z30\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (BB10; Touch) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.0.9.2372 Mobile Safari/537.10+\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nexus 4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":384,\"height\":640},\"horizontal\":{\"width\":640,\"height\":384}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nexus 5\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":25,\"right\":0,\"bottom\":48},\"image\":\"@url(google-nexus-5-vertical-default-1x.png) 1x, @url(google-nexus-5-vertical-default-2x.png) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":48},\"image\":\"@url(google-nexus-5-vertical-navigation-1x.png) 1x, @url(google-nexus-5-vertical-navigation-2x.png) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":312},\"image\":\"@url(google-nexus-5-vertical-keyboard-1x.png) 1x, @url(google-nexus-5-vertical-keyboard-2x.png) 2x\"},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":25,\"right\":42,\"bottom\":0},\"image\":\"@url(google-nexus-5-horizontal-default-1x.png) 1x, @url(google-nexus-5-horizontal-default-2x.png) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":42,\"bottom\":0},\"image\":\"@url(google-nexus-5-horizontal-navigation-1x.png) 1x, @url(google-nexus-5-horizontal-navigation-2x.png) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":42,\"bottom\":202},\"image\":\"@url(google-nexus-5-horizontal-keyboard-1x.png) 1x, @url(google-nexus-5-horizontal-keyboard-2x.png) 2x\"}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nexus 5X\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Nexus 5X Build/OPR4.170623.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":412,\"height\":732,\"outline\":{\"insets\":{\"left\":18,\"top\":88,\"right\":22,\"bottom\":98},\"image\":\"@url(Nexus5X-portrait.svg)\"}},\"horizontal\":{\"width\":732,\"height\":412,\"outline\":{\"insets\":{\"left\":88,\"top\":21,\"right\":98,\"bottom\":19},\"image\":\"@url(Nexus5X-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":24,\"right\":0,\"bottom\":48},\"image\":\"@url(google-nexus-5x-vertical-default-1x.png) 1x, @url(google-nexus-5x-vertical-default-2x.png) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":48},\"image\":\"@url(google-nexus-5x-vertical-navigation-1x.png) 1x, @url(google-nexus-5x-vertical-navigation-2x.png) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":342},\"image\":\"@url(google-nexus-5x-vertical-keyboard-1x.png) 1x, @url(google-nexus-5x-vertical-keyboard-2x.png) 2x\"},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":24,\"right\":48,\"bottom\":0},\"image\":\"@url(google-nexus-5x-horizontal-default-1x.png) 1x, @url(google-nexus-5x-horizontal-default-2x.png) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":48,\"bottom\":0},\"image\":\"@url(google-nexus-5x-horizontal-navigation-1x.png) 1x, @url(google-nexus-5x-horizontal-navigation-2x.png) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":48,\"bottom\":222},\"image\":\"@url(google-nexus-5x-horizontal-keyboard-1x.png) 1x, @url(google-nexus-5x-horizontal-keyboard-2x.png) 2x\"}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nexus 6\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 7.1.1; Nexus 6 Build/N6F26U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":412,\"height\":732},\"horizontal\":{\"width\":732,\"height\":412}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nexus 6P\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":412,\"height\":732,\"outline\":{\"insets\":{\"left\":16,\"top\":94,\"right\":16,\"bottom\":88},\"image\":\"@url(Nexus6P-portrait.svg)\"}},\"horizontal\":{\"width\":732,\"height\":412,\"outline\":{\"insets\":{\"left\":94,\"top\":17,\"right\":88,\"bottom\":17},\"image\":\"@url(Nexus6P-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"LG Optimus L70\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LGMS323 Build/KOT49I.MS32310c) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1.25,\"vertical\":{\"width\":384,\"height\":640},\"horizontal\":{\"width\":640,\"height\":384}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nokia N9\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":480,\"height\":854},\"horizontal\":{\"width\":854,\"height\":480}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nokia Lumia 520\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1.5,\"vertical\":{\"width\":320,\"height\":533},\"horizontal\":{\"width\":533,\"height\":320}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Microsoft Lumia 550\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 550) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/14.14263\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":640,\"height\":360},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Microsoft Lumia 950\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/14.14263\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":4,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Galaxy S III\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.0; en-us; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Kindle Fire HDX\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; U; en-us; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.13 Safari/535.19 Silk-Accelerated=true\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":800,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":800}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"iPad Mini\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":768,\"height\":1024},\"horizontal\":{\"width\":1024,\"height\":768}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Blackberry PlayBook\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (PlayBook; U; RIM Tablet OS 2.1.0; en-US) AppleWebKit/536.2+ (KHTML like Gecko) Version/7.2.1.0 Safari/536.2+\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":600,\"height\":1024},\"horizontal\":{\"width\":1024,\"height\":600}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nexus 10\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 10 Build/MOB31T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":800,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":800}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Nexus 7\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 7 Build/MOB30X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":600,\"height\":960},\"horizontal\":{\"width\":960,\"height\":600}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Galaxy Note 3\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Galaxy Note II\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.1; en-us; GT-N7100 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Laptop with touch\",\"type\":\"notebook\",\"user-agent\":\"\",\"capabilities\":[\"touch\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":950,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":950}},\"modes\":[{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Laptop with HiDPI screen\",\"type\":\"notebook\",\"user-agent\":\"\",\"capabilities\":[],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":900,\"height\":1440},\"horizontal\":{\"width\":1440,\"height\":900}},\"modes\":[{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Laptop with MDPI screen\",\"type\":\"notebook\",\"user-agent\":\"\",\"capabilities\":[],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":800,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":800}},\"modes\":[{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"JioPhone 2\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Mobile; LYF/F300B/LYF-F300B-001-01-15-130718-i;Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":240,\"height\":320},\"horizontal\":{\"width\":320,\"height\":240}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"show\":\"Default\"},{\"title\":\"Galaxy S5\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"},{\"title\":\"Pixel 2\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":411,\"height\":731},\"horizontal\":{\"width\":731,\"height\":411}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"},{\"title\":\"Pixel 2 XL\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":411,\"height\":823},\"horizontal\":{\"width\":823,\"height\":411}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"},{\"title\":\"iPhone 5/SE\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":320,\"height\":568,\"outline\":{\"insets\":{\"left\":29,\"top\":105,\"right\":25,\"bottom\":111},\"image\":\"@url(iPhone5-portrait.svg)\"}},\"horizontal\":{\"width\":568,\"height\":320,\"outline\":{\"insets\":{\"left\":115,\"top\":25,\"right\":115,\"bottom\":28},\"image\":\"@url(iPhone5-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"},{\"title\":\"iPhone 6/7/8\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":375,\"height\":667,\"outline\":{\"insets\":{\"left\":28,\"top\":105,\"right\":28,\"bottom\":105},\"image\":\"@url(iPhone6-portrait.svg)\"}},\"horizontal\":{\"width\":667,\"height\":375,\"outline\":{\"insets\":{\"left\":106,\"top\":28,\"right\":106,\"bottom\":28},\"image\":\"@url(iPhone6-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"},{\"title\":\"iPhone 6/7/8 Plus\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":414,\"height\":736,\"outline\":{\"insets\":{\"left\":26,\"top\":107,\"right\":30,\"bottom\":111},\"image\":\"@url(iPhone6Plus-portrait.svg)\"}},\"horizontal\":{\"width\":736,\"height\":414,\"outline\":{\"insets\":{\"left\":109,\"top\":29,\"right\":109,\"bottom\":27},\"image\":\"@url(iPhone6Plus-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"},{\"title\":\"iPhone X\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":375,\"height\":812},\"horizontal\":{\"width\":812,\"height\":375}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"},{\"title\":\"iPad\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":768,\"height\":1024,\"outline\":{\"insets\":{\"left\":52,\"top\":114,\"right\":55,\"bottom\":114},\"image\":\"@url(iPad-portrait.svg)\"}},\"horizontal\":{\"width\":1024,\"height\":768,\"outline\":{\"insets\":{\"left\":112,\"top\":56,\"right\":116,\"bottom\":52},\"image\":\"@url(iPad-landscape.svg)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"},{\"title\":\"iPad Pro\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":1024,\"height\":1366},\"horizontal\":{\"width\":1366,\"height\":1024}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"show\":\"Default\"}]",
+         "timelineCountersSplitViewState": "{\"horizontal\":{\"size\":0}}",
+         "timelineTreeViewDetailsSplitWidget": "{\"vertical\":{\"size\":0}}",
+         "undefined-tabOrder": "{\"Styles\":10,\"sources.scopeChain\":11,\"sources.watch\":12,\"Computed\":13}"
+      }
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "chrome_url_overrides": {
+
+      }
+   },
+   "gaia_cookie": {
+      "changed_time": 1566967771.330382,
+      "hash": "2jmj7l5rSw0yVb/vlWAYkK/YBwk="
+   },
+   "gcm": {
+      "product_category_for_subtypes": "com.chrome.windows"
+   },
+   "google": {
+      "services": {
+         "signin_scoped_device_id": "1b1d0ac0-5155-4766-87d1-5318c5d2fe6c"
+      }
+   },
+   "http_original_content_length": "1143728",
+   "http_received_content_length": "1143728",
+   "invalidator": {
+      "client_id": "63LAiLxN66n28jqKK/u28w=="
+   },
+   "media": {
+      "device_id_salt": "8D1E132C7BD5BD90B6DDBF75DA0B67AB"
+   },
+   "ntp": {
+      "num_personal_suggestions": 1
+   },
+   "plugins": {
+      "plugins_list": [  ]
+   },
+   "previews": {
+      "litepage": {
+         "user-needs-notification": false
+      },
+      "offline_helper": {
+         "available_pages": {
+
+         }
+      }
+   },
+   "profile": {
+      "avatar_index": 26,
+      "blacklisted_credentials_normalized": true,
+      "content_settings": {
+         "exceptions": {
+            "accessibility_events": {
+
+            },
+            "app_banner": {
+
+            },
+            "auto_select_certificate": {
+
+            },
+            "automatic_downloads": {
+
+            },
+            "autoplay": {
+
+            },
+            "background_sync": {
+
+            },
+            "bluetooth_guard": {
+
+            },
+            "bluetooth_scanning": {
+
+            },
+            "client_hints": {
+
+            },
+            "clipboard": {
+
+            },
+            "cookies": {
+
+            },
+            "durable_storage": {
+
+            },
+            "flash_data": {
+
+            },
+            "geolocation": {
+
+            },
+            "hid_chooser_data": {
+
+            },
+            "hid_guard": {
+
+            },
+            "images": {
+
+            },
+            "important_site_info": {
+
+            },
+            "intent_picker_auto_display": {
+
+            },
+            "javascript": {
+
+            },
+            "media_engagement": {
+
+            },
+            "media_stream_camera": {
+
+            },
+            "media_stream_mic": {
+
+            },
+            "midi_sysex": {
+
+            },
+            "mixed_script": {
+
+            },
+            "notifications": {
+
+            },
+            "password_protection": {
+
+            },
+            "payment_handler": {
+
+            },
+            "permission_autoblocking_data": {
+
+            },
+            "plugins": {
+
+            },
+            "popups": {
+
+            },
+            "ppapi_broker": {
+
+            },
+            "protocol_handler": {
+
+            },
+            "sensors": {
+
+            },
+            "serial_chooser_data": {
+
+            },
+            "serial_guard": {
+
+            },
+            "site_engagement": {
+
+            },
+            "sound": {
+
+            },
+            "ssl_cert_decisions": {
+
+            },
+            "subresource_filter": {
+
+            },
+            "subresource_filter_data": {
+
+            },
+            "usb_chooser_data": {
+
+            },
+            "usb_guard": {
+
+            }
+         },
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         },
+         "pref_version": 1
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "last_time_obsolete_http_credentials_removed": 1566967830.015616,
+      "managed_user_id": "",
+      "name": "Person 1",
+      "observed_session_time": {
+         "incognito_window_in_product_help_observed_session_time_key": 6350.0,
+         "new_tab_in_product_help_observed_session_time_key": 6350.0
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "signin": {
+      "AccountReconcilor": {
+         "kDiceMigrationOnStartup2": true
+      },
+      "DiceMigrationComplete": true,
+      "allowed": true
+   },
+   "spellcheck": {
+      "dictionaries": [ "en-US" ],
+      "dictionary": ""
+   },
+   "token_service": {
+      "dice_compatible": true
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1568132189.927][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "hardware_acceleration_mode_previous": true,
+   "password_manager": {
+      "os_password_blank": false,
+      "os_password_last_changed": "13196490468477475"
+   },
+   "policy": {
+      "last_statistics_update": "13212565144279691"
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "active_time": 1568091544.607716,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+            "background_apps": false,
+            "gaia_id": "",
+            "is_ephemeral": false,
+            "is_omitted_from_profile_list": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "local_auth_credentials": "",
+            "managed_user_id": "",
+            "metrics_bucket_index": 1,
+            "name": "Person 1",
+            "user_name": ""
+         }
+      },
+      "metrics": {
+         "next_bucket_index": 2
+      }
+   },
+   "rappor": {
+      "cohort_seed": 44,
+      "secret": "hlFFUzIWZKtOhKvXyLtEpHwqf5TTWD7THy/AIPHS8OdSzwiVWm0kryAxG8Wlj/o2"
+   },
+   "shutdown": {
+      "num_processes": 4,
+      "num_processes_slow": 2,
+      "type": 1
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   },
+   "startup_metric": {
+      "last_startup_timestamp": "13212566251700723",
+      "last_startup_version": "76.0.3809.132",
+      "same_version_startup_count": 123
+   },
+   "subresource_filter": {
+      "ruleset_version": {
+         "checksum": 1560219948,
+         "content": "9.4.1",
+         "format": 26
+      }
+   },
+   "supervised_users": {
+      "whitelists": {
+
+      }
+   },
+   "tab_stats": {
+      "last_daily_sample": "13212565144622953",
+      "max_tabs_per_window": 1,
+      "total_tab_count_max": 1,
+      "window_count_max": 1
+   },
+   "ukm": {
+      "persisted_logs": [  ]
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1566967769",
+      "launch_count": "123",
+      "page_load_count": "2402"
+   },
+   "updateclientdata": {
+      "apps": {
+         "aemomkdncapdnfajjbbcbdebjljbpmpj": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4628,
+            "pf": "386d5ef1-13d2-41cc-9315-c729bb4dce5b"
+         },
+         "copjbmjbojbakpaedmpkhmiplmmehfck": {
+            "cohort": "1:p1x:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 4628,
+            "pf": "4c7a80ba-6f70-457f-8b18-de17e644ed0b"
+         },
+         "ehgidpndbllacpjalkiimkbadgjfnnmc": {
+            "cohort": "1:ofl:",
+            "cohorthint": "stable64",
+            "cohortname": "stable64",
+            "dlrc": 4628,
+            "pf": "5fef4708-b9f2-4160-a8a2-868b7e7ca865"
+         },
+         "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
+            "cohort": "1:bm1:sbl@0.01,sf3@0.1",
+            "cohorthint": "M54ToM99",
+            "cohortname": "M54ToM99",
+            "dlrc": 4628,
+            "pf": "41bbb20b-2f38-4322-83d7-2dda44656189"
+         },
+         "giekcmmlnklenlaomppkphknjmnnpneh": {
+            "cohort": "1:j5l:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 4628,
+            "pf": "d93d4b88-b57a-43f2-b1d7-2585b767b61f"
+         },
+         "gkmgaooipdjhmangpemjhigmamcehddo": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4628,
+            "pf": "6b347aa0-02c7-4b31-aa76-df6db5d122c7"
+         },
+         "hfnkpimlhhgieaddgfemjhofmfblmnib": {
+            "cohort": "1:jcl:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 4628,
+            "pf": "39f0ca11-0446-43eb-b034-2c794eeaf3aa"
+         },
+         "hnimpnehoodheedghdeeijklkeaacbdc": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4628,
+            "pf": "2c663398-987d-44f8-983b-d3f55e915b82"
+         },
+         "ihnlcenocehgdaegdmhbidjhnhdchfmm": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4628,
+            "pf": "831cac39-e921-406e-a668-4dce1df6cba2"
+         },
+         "khaoiebndkojlmppeemjhbpbandiljpe": {
+            "cohort": "1:cux:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 4628,
+            "pf": "2e1ba910-9b4d-44db-a4c5-ce4f283bd389"
+         },
+         "llkgjffcdpffmhiakmfcdcblohccpfmo": {
+            "dlrc": 4628,
+            "pf": "e9acfdec-9b11-4b62-9bd4-8047b3d796ff"
+         },
+         "mimojjlkmoijpicakmndhoigimigcmbb": {
+            "cohort": "1:d0j:",
+            "cohorthint": "Chrome [M50... M99]",
+            "cohortname": "Chrome [M50... M99]",
+            "dlrc": 4628,
+            "pf": "c2aff262-81ef-4811-a440-fa80ce1e08b5"
+         },
+         "oimompecagnajdejgnnjijobebaeigek": {
+            "cohort": "",
+            "cohortname": "",
+            "dlrc": 4628,
+            "pf": "e0203269-fbe2-4ebc-b442-565ef9ff2f40"
+         }
+      }
+   },
+   "user_experience_metrics": {
+      "low_entropy_source3": 7793,
+      "machine_id": 12149720,
+      "session_id": 122,
+      "stability": {
+         "breakpad_registration_fail": 0,
+         "breakpad_registration_ok": 0,
+         "browser_last_live_timestamp": "13212566364596905",
+         "child_process_crash_count": 1,
+         "crash_count": 25,
+         "debugger_not_present": 123,
+         "debugger_present": 0,
+         "deferred_count": 0,
+         "discard_count": 1,
+         "exited_cleanly": true,
+         "extension_renderer_crash_count": 0,
+         "extension_renderer_failed_launch_count": 0,
+         "extension_renderer_launch_count": 123,
+         "gpu_crash_count": 0,
+         "incomplete_session_end_count": 0,
+         "launch_count": 123,
+         "page_load_count": 2402,
+         "plugin_stats2": [  ],
+         "renderer_crash_count": 0,
+         "renderer_failed_launch_count": 0,
+         "renderer_hang_count": 0,
+         "renderer_launch_count": 1402,
+         "session_end_completed": true,
+         "stats_buildtime": "1566536400",
+         "stats_version": "76.0.3809.132-64",
+         "system_crash_count": 0,
+         "version_mismatch_count": 0
+      }
+   },
+   "variations_crash_streak": 25,
+   "was": {
+      "restarted": false
+   }
+}
+[1568132189.931][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --incognito --load-extension="C:\Users\Droid\AppData\Local\Temp\scoped_dir8844_843601093\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\\Users\\Droid\\Desktop\\InstagramBot\\chromeuserdata"
+[1568132191.693][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1568132193.689][WARNING]: Timed out connecting to Chrome, retrying...
+[1568132193.690][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1568132195.702][INFO]: [25f962950df3e3410b2984b8bf151902] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "76.0.3809.132",
+      "chrome": {
+         "chromedriverVersion": "76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})",
+         "userDataDir": "C:\\\\Users\\\\Droid\\\\Desktop\\\\InstagramBot\\\\chromeuserdata"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62139"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows nt",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "25f962950df3e3410b2984b8bf151902"
+}
