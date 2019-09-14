@@ -26,20 +26,27 @@ class InstagramBot():
         self.lock = RLock()
         self.que = Queue()
 
-        #Import Config .ini- config_file is the Path Variable
+        #Import Config.ini and Configure
         cwd = os.getcwd()
         platform = sys.platform
         if platform == 'win32' or 'cygwin':
             config_file = (cwd + '\\config.ini').replace('\\', '\\\\')
             self.xmlfile = (cwd + '\\XML.txt').replace('\\', '\\\\')
+            CHROME_USERDATA = (cwd + '\\chromeuserdata').replace('\\', '\\\\')
+            CHROMEDRIVER_PATH = (cwd + "\\chromedriver.exe").replace('\\', '\\\\')
         else:
             config_file = (cwd + '/config.ini')
             self.xmlfile = (cwd + '/XML.txt')
+            CHROME_USERDATA = (cwd + '/chromeuserdata')
+            CHROMEDRIVER_PATH = (cwd + "/chromedriver.exe")
+
         try:
             config = configparser.ConfigParser()
             config.read(config_file)
         except configparser.Error:
-            print('Failed to Parse config.ini')
+            print('''config.ini Error, Please Check File Paths \n 
+                    Make sure Chromedriver.exe is in the Current Working Directory and\n
+                    Chromedriver and Google Chrome are at compatable versions.''')
 
         #Instagram Account Username and Password
         self.username = config['IG_AUTH']['USERNAME']
@@ -69,13 +76,12 @@ class InstagramBot():
 
         #Selenium Driver
         options = webdriver.ChromeOptions()
-        options.add_argument('user-data-dir={}'.format(config['ENVIRONMENT']['CHROME_USERDATA']))
+        options.add_argument('user-data-dir={}'.format(CHROME_USERDATA))
         options.add_argument('--incognito')
 #       options.add_argument('--headless')
-        self.driver = webdriver.Chrome(executable_path=config['ENVIRONMENT']['CHROMEDRIVER_PATH'],
+        self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH,
                                             service_log_path=config['LOGS']['CHROME'],
                                             options=options)
-
 
         #Populate Queue with Tags from config.ini
         for item in self.tags:
@@ -275,7 +281,7 @@ class InstagramBot():
 
             #Create FQDN for each shortcode, and 
             for item in href:
-                    link = ('https://www.instagram.com{}'.format(item))
+                    link = (self.base_url.format(item))
                     if link not in links:
                         links.append(link)
 
