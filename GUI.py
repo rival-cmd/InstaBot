@@ -1,7 +1,6 @@
 import sys, time, configparser, logging, threading
 import Instabot
 import tkinter as tk
-import multiprocessing as mp
 from datetime import datetime
 from queue import Queue
 from threading import Thread, RLock
@@ -26,10 +25,9 @@ class StdoutRedirector(object):
         pass
 
 
-class GUI(Thread):
+class GUI(object):
     """GUI Thread """
     def __init__(self):
-        super().__init__(target=self.run)
         self.main_window = None
 
     def run(self):
@@ -64,8 +62,8 @@ class MainWindow(Window):
         self.submit_button = None
 
         #Variables for Dynamic GUI
-        self.posts = tk.StringVar()
-        self.follows = tk.StringVar()
+        self.posts = tk.StringVar(value=0)
+        self.follows = tk.StringVar(value=0)
 
         #Build Main Window
         self.build_window()
@@ -139,8 +137,6 @@ class MainWindow(Window):
         #Hashtag Spider (LONG PROCESS)
         try:
             insta_bot.login()
-            update = insta_bot.update()
-            self.posts, self.follows = update
             if insta_bot.logged_in == False:
                 insta_bot.quit()
                 self.pause()
@@ -152,7 +148,7 @@ class MainWindow(Window):
                 print('Starting Spider for {}'.format(que))
                 insta_bot.spider_scrawl(que)
                 insta_bot.update()
-                print(' Acquired data from Spider {}'.format(update))
+                print(' Acquired data from Spider {}'.format(insta_bot.update()))
                 self.root.update()
                 time.sleep(1)
             print('Finished Tag Spider')
