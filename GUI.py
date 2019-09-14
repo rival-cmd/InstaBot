@@ -151,6 +151,7 @@ class MainWindow(Window):
                 print(' Acquired data from Spider {}'.format(insta_bot.update()))
                 self.root.update()
                 time.sleep(1)
+                insta_bot.queue()
             print('Finished Tag Spider')
         except TimeoutError as e:
             print('Search Tag Spider Error, Check XML Paths')
