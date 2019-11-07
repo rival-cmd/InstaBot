@@ -147,8 +147,10 @@ class MainWindow(Window):
             while que != False:
                 print('Starting Spider for {}'.format(que))
                 insta_bot.spider_scrawl(que)
-                insta_bot.update()
-                print(' Acquired data from Spider {}'.format(insta_bot.update()))
+                data = insta_bot.update()
+                self.posts.set(str(data[0]))
+                self.follows.set(str(data[1]))
+                print(f' Acquired data from Spider- Pictures Liked: {data[0]} / New Following: {data[1]})
                 self.root.update()
                 time.sleep(1)
                 insta_bot.queue()
