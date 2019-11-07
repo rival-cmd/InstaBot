@@ -150,10 +150,10 @@ class MainWindow(Window):
                 data = insta_bot.update()
                 self.posts.set(str(data[0]))
                 self.follows.set(str(data[1]))
-                print(f' Acquired data from Spider- Pictures Liked: {data[0]} / New Following: {data[1]})
+                print(f' Acquired data from Spider- Pictures Liked: {data[0]} / New Following: {data[1]}')
                 self.root.update()
                 time.sleep(1)
-                insta_bot.queue()
+                que = insta_bot.queue()
             print('Finished Tag Spider')
         except TimeoutError as e:
             print('Search Tag Spider Error, Check XML Paths')
@@ -179,10 +179,6 @@ class MainWindow(Window):
     def stop(self):
         """Terminate Instabot"""
         with self.lock:
-            print(str(threading.active_count()))
-            print(str(threading.current_thread()))
-            print(threading.enumerate())
-            print(threading.main_thread())
             self.progress_bar.stop
             print('[{}] InstaBot Stopped')
             self.root.update()
