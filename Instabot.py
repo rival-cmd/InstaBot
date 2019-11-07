@@ -30,10 +30,10 @@ class InstagramBot():
         cwd = os.getcwd()
         platform = sys.platform
         if platform == 'win32' or 'cygwin':
-            config_file = (cwd + '\\config.ini').replace('\\', '\\\\')
-            self.xmlfile = (cwd + '\\XML.txt').replace('\\', '\\\\')
-            CHROME_USERDATA = (cwd + '\\chromeuserdata').replace('\\', '\\\\')
-            CHROMEDRIVER_PATH = (cwd + "\\chromedriver.exe").replace('\\', '\\\\')
+            config_file = (cwd + '\\config.ini')
+            self.xmlfile = (cwd + '\\XML.txt')
+            CHROME_USERDATA = (cwd + '\\chromeuserdata')
+            CHROMEDRIVER_PATH = (cwd + "\\chromedriver.exe")
         else:
             config_file = (cwd + '/config.ini')
             self.xmlfile = (cwd + '/XML.txt')
