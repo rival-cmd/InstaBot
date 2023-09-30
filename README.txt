@@ -1,5 +1,3 @@
-Thank you for taking the time to download my skeleton program. 
-Right now all the bot is, is a selenium google chrome webdriver instagram spider.
 
 This program only requires the modification of the config.ini file.
 You will be required to place your username and password in this file,
